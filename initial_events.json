@@ -1,0 +1,19 @@
+{
+  "evenements" : {
+    "-K2ib4H77rj0LYewF7sP" : {
+      "nom" : "DevFest",
+      "lieu" : "Universite de Ngaoundere",
+        "date" : "Du 19 au 21 Nov 2016"
+    },
+    "-K2ib5JHRbbLfNrztUfO" : {
+      "nom" : "Hacking Days",
+      "lieu" : "ISS de Maroua",
+        "date" : "Du 27 au 30 Dec 2016"
+    },
+    "-K2ib62mjHg34CAUbide" : {
+     "nom" : "Semaine de pareinage INFOTEL",
+      "lieu" : "ISS de Maroua",
+        "date" : "Du 27 au 30 Dec 2016"
+    }
+  }
+}

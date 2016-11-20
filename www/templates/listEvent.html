@@ -1,0 +1,28 @@
+<ion-view view-title="Evenements">
+  <ion-content class="contents">
+  
+      <div class="list card"   ng-repeat="event in events" >
+<!--          href="#/app/event/{{event.$id}}"-->
+            <div class="item item-image" ng-click="detailEvent(event.$id)">
+<!--                href="#/app/event/{{event.$id}}"-->
+                <img class="full-image" src="http://lorempixel.com/700/600" alt="logo de l'evenement">
+                
+            </div>
+           <div class="item">
+               <h2> <a href="#/app/event/{{event.$id}}" class="event_title" >{{event.nom}}</a></h2>
+           <p> <a href="#/app/event/{{event.$id}}" class="subdued">
+                <i class="icon ion-ios-location"></i> {{event.lieu}}
+               </a></p><p>
+          <a  href="#" class="subdued">
+                <i class="icon ion-calendar "></i> {{event.date}}
+               </a></p>
+          </div> 
+           <div class=" item">
+              <a class="subdued" href="#"> <i class="icon ion-ios-location "></i></a>
+              <a class="subdued " href="#"> <i class="icon ion-ios-location"></i></a>
+              <a class="subdued" href="#"> <i class="icon ion-calendar"></i></a>
+            </div>
+      </div>
+     
+  </ion-content>
+</ion-view>

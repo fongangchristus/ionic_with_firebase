@@ -1,0 +1,52 @@
+<ion-view>
+	<ion-nav-title class="has-tabs-top">
+    <span>Details evenement</span>
+  </ion-nav-title>
+    <ion-tabs class="tabs-striped tabs-background-stable tabs-top">
+
+    <ion-tab class="tab-title" title="Agenda">
+      <ion-pane>
+        <ion-content class="padding">
+          
+            <div  class="agenda-event"> <p> {{event.nom}} est un evenement organisé pour la vulgarisation des technologies innovantes permettant de mettre en avant les innovations et d'actualités, de promouvoir la culture de l'innovation par les presentations des projets...</p>
+            
+            
+            </div>
+            <h3>23 MAI 2016</h3>
+            <section class="timeline">
+                  <ul>
+                    <li>
+                      <div>
+                        <h4>09h 30 - 10h 40</h4>
+                          <p>Theme: Le zozo sur la corde ne doit pas oublier qu'il a porté des lunettes</p>
+                          <p>Speaker: Christus</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <time>1934</time>
+                        Some content here
+                      </div>
+                    </li>
+                      <li>
+                      <div>
+                        <time>1934</time>
+                        Some content here
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+
+    <ion-tab class="tab-title" title="Speacker">
+      <ion-pane>
+        <ion-content class="padding">
+          <div agenda-event ng-repeat="event in events.day2" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+
+  </ion-tabs>
+</ion-view>

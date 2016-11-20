@@ -1,0 +1,55 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons >
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+        <ion-nav-buttons side="primary">
+    <button menu-toggle="right" class="button button-icon icon ion-log-out"></button>
+</ion-nav-buttons>
+     <ion-nav-buttons side="secondary">
+         <button class="button button-icon icon ion-android-more-vertical"></button>
+</ion-nav-buttons>
+    </ion-nav-bar>
+      
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" class="main-menu">
+   <!--  <ion-header-bar class="bar-stable">
+      <h1 class="title">Left</h1>
+    </ion-header-bar> -->
+    <ion-content scroll="false" class="main_menu">
+	
+      <ion-list >
+		<img src="../img/63370-84.png" height="150px" class="logo_menu">
+        <ion-item class="item item-icon-right" nav-clear menu-close href="#/app/events">
+             <i class="icon ion-calendar "></i>
+            <h2 class="menu-text">Evenements </h2>
+        </ion-item>
+        <ion-item menu-close class="item item-icon-right" nav-clear href="#/app/favorites">
+		 <i class="icon ion-ribbon-b"></i>
+            <h2 class="menu-text">
+          Ma selection</h2>
+		  
+        </ion-item>
+        <ion-item menu-close class="item item-icon-right" nav-clear href="#/app/map">
+		<i class="icon ion-ios-location"></i>
+            <h2 class="menu-text">
+          Carte</h2>
+		  
+        </ion-item>
+        <ion-item menu-close class="item item-icon-right" nav-clear href="#/app/helps">
+		<i class="icon ion-ios-help-outline"></i>
+          <h2 class="menu-text"> Aide</h2>
+		  <!--<i class="icon ion-speakerphone"></i>-->
+        </ion-item>
+		 <h2 class="menu-header-bar-title">Friends<span class="uy">App</span></h2>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

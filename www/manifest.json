@@ -1,0 +1,12 @@
+
+{
+  "name": "FriendsApp",
+  "short_name": "My friends events",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "63370-84.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

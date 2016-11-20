@@ -1,0 +1,70 @@
+<ion-view  cache-view="rue" class=" tour-view">
+	<ion-content scroll="false"   class="arriereplan">
+		<section class = "home-container">
+            <div class = "row header">
+ 
+                <div class = "col text-center">
+                     <img src="./img/63370-84.png" class = "logo" />
+                </div>
+ 
+          </div>
+            <div class = "row">
+ 
+                <div class = "col text-center">
+                        <label class="item item-input">
+                            <input type="text" placeholder="Entrez votre login" ng-model="user.username">
+                        </label>
+                        
+                    </div>
+                </div>
+            <div class = "row">
+                <div class = "col text-center">
+                        <label class="item item-input">
+                          <input type="password" placeholder="Entrez votre mode passe" ng-model="user.password">
+                        </label>
+                </div>
+          </div>
+         <div class = "row">
+                <div class = "col col-50">
+                      
+                        <button class="button button-block button-positive" ng-click="signIn(user)">
+                          Login
+                        </button>
+                   </div>   
+                    <div class = "col col-50">
+                     
+                        <button class="button button-block button-balanced" ng-click="signIn(user)">
+                          Signup
+                        </button>
+                     
+                </div>
+          </div>
+           
+             <div class = "row">
+                 <div class="col-60 col-offset-20"> 
+                 <button class="button button-block button-assertive icon-left ion-social-googleplus " ng-click="signIn(user)">
+                          Google +
+                </button>
+                </div> 
+          </div>
+            <div class="row">
+                  <div class="col-60 col-offset-20"> 
+                     <button class="button button-block button-positive icon-left  ion-social-facebook" ng-click="signIn(user)">
+                           Facebook
+                    </button>
+                 </div>
+             </div>
+             <div class="row">
+                  <div class="col-60 col-offset-20"> 
+                     <button class="button button-block button-stable icon-left ion-social-github" ng-click="signIn(user)">
+                           Github
+                    </button>
+                 </div>
+             </div>
+            
+           
+             
+        </section>
+	</ion-content>
+	
+</ion-view>
